@@ -1,0 +1,61 @@
+body{
+	font-size: 24px;
+	line-height:36px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+}
+
+
+.main-header{
+	font-size: 36px;
+	font-weight:bold;
+	padding:10px;
+	background-color: #ee1d1d;
+	text-align:center;
+}
+
+.main-nav{
+	background-color: #e8930b;
+	text-align:center;
+}
+
+.nav-link{
+	display:inline-block;
+	padding:10px 30px;
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+.main-block{
+	background-color: #046117;
+	padding:10px;
+}
+
+.main-article{
+	background-color: #5865d9;
+	padding:30px 20px;
+	text-align:left;
+	margin:10px;
+}
+
+.article-title{
+	font-weight:bold;
+	padding-bottom:20px;
+}
+
+.article-text{
+	font-size: 16px;
+	line-height:24px;
+}
+
+.article-list{
+	margin:0;
+	padding-left:20px;
+}
+
+.main-footer{
+	font-size: 36px;
+	padding:10px;
+	background-color: #d115a5;
+	text-align:center;
+}

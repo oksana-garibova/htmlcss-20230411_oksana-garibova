@@ -1,0 +1,13 @@
+.main{
+    background-color: #F9FAFC;
+    height:1036px;
+    border-top:1px solid #DDE2E5;
+    border-bottom:1px solid #DDE2E5;  
+    width:100%;
+}
+
+.main__content{
+    max-width:1110px;
+    width:100%;
+    margin:0 auto;
+}

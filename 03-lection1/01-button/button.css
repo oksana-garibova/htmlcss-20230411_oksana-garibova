@@ -1,10 +1,10 @@
 /* Стилизация кнопки */
 .button{
-    max-width:189px;
+    min-width:189px;
     height:48px;
     border-radius: 8px;
     color:var(--white);
-    padding:15px;
+    padding:15px 15px 14px;
     text-align: center;
     font-size:16px;
     line-height:19px;
@@ -44,7 +44,7 @@
     border:1px solid var(--black);
 }
 
-.button_primary:disabled, .button_secondary:disabled, .button_alternate:disabled{
+.button:disabled{
     opacity:0.5;
     pointer-events: none;
 }

@@ -1,7 +1,6 @@
 /* Стилизация аккордеона */
 .accordion{
-    width:730px;
-    margin:0 auto;
+    
 }
 .accordion__title {
     list-style: none;

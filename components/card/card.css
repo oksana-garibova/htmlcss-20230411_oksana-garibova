@@ -1,0 +1,25 @@
+.preview{
+    background-color: #F9FAFC;
+}
+
+.preview__cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top:53px;
+    padding-bottom:94px;
+    margin:0 -15px;
+}
+
+.card{
+    width:350px;
+    height:367px;
+    border-radius:12px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);  
+}
+
+.preview__card{
+    margin:15px;
+}

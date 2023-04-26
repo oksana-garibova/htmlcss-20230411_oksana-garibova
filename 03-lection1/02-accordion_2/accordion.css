@@ -1,0 +1,31 @@
+/* Стилизация аккордеона */
+.accordion{
+    
+}
+.accordion__title {
+    list-style: none;
+    color:var(--black);
+  }
+
+.accordion__item{
+    border-radius: 8px;
+    border:1px solid var(--grey-3);
+    padding:24px 32px;
+    text-align: left;
+    font-size:16px;
+    line-height:24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    margin-bottom:8px;
+}
+
+.accordion__item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion__text{
+    color:var(--grey-4);
+    padding-top:16px;
+    padding-bottom:8px;
+    margin:0;
+}

@@ -1,14 +1,14 @@
 .preview{
     background-color: #F9FAFC;
+    padding-top:53px;
+    padding-bottom:94px;
 }
 
 .preview__cards{
     display:flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    padding-top:53px;
-    padding-bottom:94px;
+    flex-wrap: wrap;   
     margin:0 -15px;
 }
 

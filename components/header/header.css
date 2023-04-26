@@ -1,5 +1,6 @@
 .header{
-    background-color: #FFFFFF;  
+    background-color: #FFFFFF;
+    padding-top:24px;  
 }
 
 .header__title{
@@ -13,7 +14,7 @@
 }
 
 .header__logo{
-    padding-top:24px;
+    
 }
 
 .header__logo-img{

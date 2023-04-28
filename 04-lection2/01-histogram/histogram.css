@@ -25,7 +25,7 @@
     margin-bottom: 40px;
 }
 
-.histogram__link-text{
+.histogram__link{
     text-decoration:none;
     color:#4263EB;
     cursor:pointer;
@@ -34,24 +34,23 @@
 .histogram__body{
     display:flex;
     flex-direction: row;    
-    align-items:flex-end;   
-    flex:1 1 auto;
-    height:300px;
+    align-items:flex-end;    
+    height:50px;
 }
 
 .histogram__column{
     background-color: #4263EB;
-    width:200px;
+    flex:1;
 }
 
-.histogram_max{
+.histogram__column_max{
     height:100%;
 }
 
-.histogram_middle{
+.histogram__column_middle{
     height:60%;
 }
 
-.histogram_min{
+.histogram__column_min{
     height:20%;
 }

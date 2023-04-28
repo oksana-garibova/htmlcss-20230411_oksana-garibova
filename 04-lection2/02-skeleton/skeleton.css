@@ -19,6 +19,10 @@
     margin-right:16px;
 }
 
+.skeleton__description{
+    width: 100%;
+}
+
 .skeleton__line{
     height: 20px;
     background: linear-gradient(to right, #DDE2E5 0%, #E2E6E8 33.333%, #F3F5F5 52.08%, #E3E7EA 73.96%, #DDE2E5 100%);
@@ -26,13 +30,13 @@
 }
 
 .skeleton_line_min{
-    width:172px
+    width:10%;
 }
 
 .skeleton_line_middle{
-    width:257px
+    width:40%;
 }
 
 .skeleton_line_max{
-    width:515px
+    width:95%;
 }

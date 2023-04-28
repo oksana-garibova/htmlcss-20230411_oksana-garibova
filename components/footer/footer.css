@@ -1,15 +1,15 @@
 .footer{
-    background-color: #FFFFFF;  
+    background-color: #FFFFFF;    
 }
 
-.footer__content{
-    max-width:640px;
+.footer__container{
+    text-align:center;
+    max-width:640px; 
     width:100%;
     margin:0 auto;
-    text-align:center;
 }
 
-.footer__title{ 
+.footer__title{  
     font-size:38px;
     line-height:48px;
     font-weight:500;

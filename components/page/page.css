@@ -2,3 +2,75 @@
     margin:0 auto;
     color:#212429;
 }
+
+.component{
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: #F9FAFC;
+    grid-template-areas: "header" "main" "footer";
+}
+
+.component__header{
+    grid-area:header;
+}
+
+.component__header{
+    padding-top:24px;
+    padding-bottom: 62px;
+}
+
+.component__main{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-area:main;
+}
+
+.menu{
+    padding-right:56px;
+}
+
+.content{
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius:12px;
+}
+
+.component__footer{
+    grid-area:footer;
+    color:#ACB5BD;
+    font-size:12px;
+    line-height:18px;
+    letter-spacing: 0.04;
+    font-weight: 500;
+    margin:56px;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.menu__wrap{
+    padding-left:0;
+    margin:0;
+}
+
+.menu__title{
+    font-size:20px;
+    line-height:26px;
+    color:#000000;
+    font-weight: 400;
+    list-style-type:none;
+}
+
+.menu__subtitle{
+    font-size:14px;
+    line-height:22px;
+    color:#212429;
+    font-weight: 400;
+    padding-bottom:4px;
+    list-style-type:none;
+}
+
+.menu__block{
+    padding-top:16px;
+    padding-bottom:28px;
+    padding-left:0;
+}

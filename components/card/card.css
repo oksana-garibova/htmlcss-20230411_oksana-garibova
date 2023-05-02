@@ -8,8 +8,8 @@
     display:flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;   
-    margin:0 -15px;
+    flex-wrap: wrap;
+    gap:30px;   
 }
 
 .card{
@@ -21,5 +21,5 @@
 }
 
 .preview__card{
-    margin:15px;
+    
 }

@@ -3,7 +3,7 @@
     color:#212429;
 }
 
-.component{
+.page_component{
     display:grid;
     grid-template-rows: auto 1fr auto;
     background-color: #F9FAFC;
@@ -23,16 +23,6 @@
     display:grid;
     grid-template-columns: auto 1fr;
     grid-area:main;
-}
-
-.menu{
-    padding-right:56px;
-}
-
-.content{
-    background-color: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius:12px;
 }
 
 .component__footer{

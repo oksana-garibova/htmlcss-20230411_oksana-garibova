@@ -1,5 +1,8 @@
-body{
-    text-align: center;
+.tooltip_wrap{
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tooltip{
@@ -19,7 +22,7 @@ body{
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     padding:13px 21px;
     position:absolute;
-    top:0%;
+    bottom: calc(100% + 8px);
     left:50%;
     transform: translate(-50%);
     white-space: nowrap;
@@ -35,8 +38,7 @@ body{
     transform: translate(-50%);
 }
 
-.tooltip__trigger{
-    margin-top:60px;
+.tooltip__trigger{    
     cursor:pointer;
 }
 

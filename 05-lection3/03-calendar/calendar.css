@@ -41,7 +41,7 @@
     align-items: center;
 }
 
-.calendar__item-day{
+.calendar__item_day{
     font-size:14px;  
     color:#90A0B7; 
 }
@@ -51,6 +51,6 @@
     color:#FFFFFF;
 }
 
-.calendar__item_between-active{
+.calendar__item_between_active{
     background:#A0B1F5;
 }

@@ -2,4 +2,44 @@
     background-color: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius:12px;
+    height:auto;
+    padding:0 48px;
+}
+
+.content__title{
+    font-size:28px;
+    line-height:38px;
+    color:#495057;
+    padding-top:32px;
+    padding-bottom:58px;
+    text-align:left;
+}
+
+@media screen and (max-width: 992px) {
+    .content{
+        border-radius:0; 
+        box-shadow: none;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        padding:0 30px;
+    }
+
+    .content__title{
+        font-size:24px;
+        line-height:32px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .content{
+        padding:0 16px;
+    }
+
+    .content__title{
+        font-size:20px;
+        line-height:26px;
+    }
 }

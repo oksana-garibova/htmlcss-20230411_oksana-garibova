@@ -6,18 +6,15 @@
     display:grid;
     grid-template-rows: auto 1fr auto;
     background-color: #F9FAFC;
-    grid-template-areas: "header" "main" "footer";
 }
 
 .page__header{
-    grid-area:header;
     padding:24px 16px 62px 16px;
 }
 
 .page__main{
     display:grid;
     grid-template-columns: auto 1fr;
-    grid-area:main;
     gap: 0 56px;
     position:relative;
 }

@@ -1,9 +1,3 @@
-.preview{
-    background-color: #F9FAFC;
-    padding-top:53px;
-    padding-bottom:94px;
-}
-
 .preview__cards{
     display:flex;
     flex-direction: row;
@@ -22,11 +16,6 @@
 
 
 @media screen and (max-width: 576px) {
-    .preview{
-        padding-top:23px;
-        padding-bottom:23px;
-    }
-    
     .card{
         width:164px;
         height:177px;

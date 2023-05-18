@@ -6,10 +6,12 @@
     display:grid;
     grid-template-rows: auto 1fr auto;
     background-color: #F9FAFC;
+    grid-template-areas: "header" "main" "footer";
 }
 
 .page__header{
     padding:24px 16px 62px 16px;
+    grid-area: header;
 }
 
 .page__main{
@@ -17,6 +19,11 @@
     grid-template-columns: auto 1fr;
     gap: 0 56px;
     position:relative;
+    grid-area: main;
+}
+
+.page__footer{
+    grid-area: footer; 
 }
 
 @media screen and (max-width: 992px) {
@@ -24,7 +31,6 @@
         display:block;
     }
 }
-
 
 @media screen and (max-width: 576px) {
     .page__header{

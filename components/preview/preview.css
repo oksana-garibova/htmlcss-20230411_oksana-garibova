@@ -6,9 +6,21 @@
     padding-bottom:94px;
 }
 
+.preview__cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;  
+}
+
 @media screen and (max-width: 576px) {
     .preview{
         padding-top:23px;
         padding-bottom:23px;
+    }
+    
+    .preview__cards{
+        gap:16px;  
     }
 }

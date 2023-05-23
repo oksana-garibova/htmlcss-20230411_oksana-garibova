@@ -1,0 +1,54 @@
+.label__text{
+    font-size: 12px;
+    line-height: 18px;
+    color:#ACB5BD;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding-bottom:5px;
+}
+
+.input__block{
+    display:block;
+    border:1px solid #DDE2E5;
+    border-radius: 8px;
+    width:350px;
+    padding:17px 24px 13px;
+    outline: none;
+    font-size: 20px;
+    line-height:26px;   
+}
+
+.input__block:focus{
+    border-color: #4263EB;
+    color:#495057
+}
+
+.input_invalid .input__block{
+    border:1px solid #F03D3E;
+}
+
+.input_success, .input_invalid{
+    position: relative;
+    display:inline-block;
+}
+
+.icon__success, .icon__invalid{
+    display:none;
+    position: absolute;
+    bottom:16px;
+    right:16px;
+}
+
+.input_invalid .icon__invalid{
+    display:block;
+}
+
+.input_success .icon__success{
+    display:block;
+}
+
+.input__block:disabled{
+    opacity: 0.5;
+}
+

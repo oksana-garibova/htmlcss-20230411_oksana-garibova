@@ -6,6 +6,7 @@
     display:grid;
     grid-template-rows: auto 1fr auto;
     background-color: #F9FAFC;
+    grid-template-areas: "header" "main" "footer";
 }
 
 .page__header{

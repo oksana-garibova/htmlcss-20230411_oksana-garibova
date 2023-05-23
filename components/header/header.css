@@ -13,11 +13,34 @@
     margin:0;
 }
 
-.header__logo{
-    
-}
-
 .header__logo-img{
     width:110px;
     height:32px;
+}
+
+.radio__tabs{
+    position:absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.tabs__scroller{
+    display: flex;
+    justify-content: flex-start;
+    gap:40px;
+}
+
+.tabs__title{
+    font-size: 16px;
+    line-height: 24px;
+    color:#ACB5BD;
+    user-select: none;
+    padding-bottom:8px;
+}
+
+#all-tab:checked ~ .tabs__scroller #title_all,
+#elements-tab:checked ~ .tabs__scroller #title_elements,
+#containers-tab:checked ~ .tabs__scroller #title_containers,
+#templates-tab:checked ~ .tabs__scroller #title_templates{
+    color:#212429;
+    border-bottom:5px solid #212429;
 }

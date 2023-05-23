@@ -26,7 +26,6 @@
 }
 
 .footer__text{
-    grid-area:footer;
     color:#ACB5BD;
     font-size:12px;
     line-height:18px;

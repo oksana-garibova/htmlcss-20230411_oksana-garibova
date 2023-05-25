@@ -1,6 +1,6 @@
 .header{
     background-color: #FFFFFF;
-    padding-top:24px;  
+    padding:24px 16px 0px;  
 }
 
 .header__title{
@@ -13,7 +13,30 @@
     margin:0;
 }
 
-.header__logo-img{
-    width:110px;
-    height:32px;
+@media screen and (max-width: 992px) {
+    .header__logo{
+        text-align:center;
+    }
+
+    .header__title{
+        font-size:50px;
+        line-height:64px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__title{
+        font-size:38px;
+        line-height:48px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header{
+        padding-top:17px;  
+    }
+    .header__title{
+        font-size:28px;
+        line-height:38px;
+    }
 }

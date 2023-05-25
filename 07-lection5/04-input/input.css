@@ -1,3 +1,7 @@
+.input{
+    display:inline-block;
+}
+
 .input__label{
     font-size: 12px;
     line-height: 18px;
@@ -16,8 +20,7 @@
     padding:17px 24px 13px;
     outline: none;
     font-size: 20px;
-    line-height:26px;   
-   
+    line-height:26px;     
 }
 
 .input__block:focus{
@@ -29,15 +32,11 @@
     border:1px solid #F03D3E;
 }
 
-.input_success, .input_invalid{
-    display:inline-block;
-}
-
 .input__wrapper{
     position: relative;
 }
 
-.input__icon_success, .input__icon_invalid{
+.input__icon{
     display:none;
     position: absolute;
     top:16px;

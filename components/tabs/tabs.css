@@ -1,0 +1,41 @@
+.tabs__input{
+    position:absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.tabs{
+    position:relative;
+}
+
+.tabs__scroller{
+    display: flex;
+    justify-content: flex-start;
+    gap:40px;
+}
+
+.tabs__label{
+    font-size: 16px;
+    line-height: 24px;
+    color:#ACB5BD;
+    user-select: none;
+    padding-bottom:8px;
+}
+
+.tabs__input_all:checked ~ .tabs__scroller .tabs__label_all,
+.tabs__input_elements:checked ~ .tabs__scroller .tabs__label_elements,
+.tabs__input_containers:checked ~ .tabs__scroller .tabs__label_containers,
+.tabs__input_templates:checked ~ .tabs__scroller .tabs__label_templates{
+    color:#212429;
+    border-bottom:5px solid #212429;
+}
+
+.tabs__content{
+    display:none;
+}
+
+.tabs__input_all:checked ~ .tabs__content_all,
+.tabs__input_elements:checked ~ .tabs__content_elements,
+.tabs__input_containers:checked ~ .tabs__content_containers,
+.tabs__input_templates:checked ~ .tabs__content_templates{
+    display:block;
+}

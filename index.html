@@ -29,21 +29,41 @@
                     <h1 class="header__title">Reusable component library</h1>
                 </div>
             </header>
-            <main class="preview">
-                <div class="container">
-                    <div class="preview__cards">
-                        <div class="card preview__card"></div>
-                        <div class="card preview__card"></div>
-                        <div class="card preview__card"></div>
-                    </div>
+            <div class="tabs">
+                
+                <input type="radio" id="all-tab" name="radio_block" class="tabs__input tabs__input_all" checked>
+                <input type="radio" id="elements-tab" name="radio_block" class="tabs__input tabs__input_elements">
+                <input type="radio" id="containers-tab" name="radio_block" class="tabs__input tabs__input_containers">
+                <input type="radio" id="templates-tab" name="radio_block" class="tabs__input tabs__input_templates">
+            
+                <div class="tabs__scroller container">
+                    <label for="all-tab" class="tabs__label tabs__label_all">All components</label>
+                    <label for="elements-tab" class="tabs__label tabs__label_elements">Elements</label>
+                    <label for="containers-tab" class="tabs__label tabs__label_containers">Containers</label>
+                    <label for="templates-tab" class="tabs__label tabs__label_templates">Templates</label>
                 </div>
-            </main>
-            <footer class="footer">
-                <div class="footer__container">
-                    <h2 class="footer__title">About</h2>
-                    <div class="footer__description">This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.</div>
+                
+                <div class="tabs__content tabs__content_all">
+                    <main class="preview ">
+                        <div class="container">
+                            <div class="preview__cards">
+                                <div class="card preview__card"></div>
+                                <div class="card preview__card"></div>
+                                <div class="card preview__card"></div>
+                            </div>
+                        </div>
+                    </main>
+                    <footer class="footer">
+                        <div class="footer__container">
+                            <h2 class="footer__title">About</h2>
+                            <div class="footer__description">This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.</div>
+                        </div>
+                    </footer>
                 </div>
-            </footer>
+                <div class="tabs__content tabs__content_elements"></div>
+                <div class="tabs__content tabs__content_containers"></div>
+                <div class="tabs__content tabs__content_templates"></div>
+            </div>            
         </div>
     </body>
 </html>
